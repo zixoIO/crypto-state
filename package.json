@@ -1,0 +1,36 @@
+{
+  "name": "crypto-state",
+  "version": "0.0.1-beta.0",
+  "description": "Crypto state show prices of BTC, BCH, BS, and ETH from the Blockchair service",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.base.json",
+    "precommit": "lint-staged",
+    "tslint": "tslint -c tslint.json -p tsconfig.development.json"
+  },
+  "author": "",
+  "dependencies": {
+    "async": "^3.2.0",
+    "lodash": "^4.17.19",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.8"
+  },
+  "devDependencies": {
+    "@types/async": "^3.2.3",
+    "@types/debug": "4.1.5",
+    "@types/lodash": "^4.14.157",
+    "@types/request": "^2.48.5",
+    "@types/request-promise-native": "^1.0.17",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "source-map-support": "^0.5.19",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.6"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zixoIO/crypto-state/issues"
+  },
+  "homepage": "https://github.com/zixoIO/crypto-state/#readme"
+}
